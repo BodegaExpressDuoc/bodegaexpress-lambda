@@ -5,7 +5,7 @@
 
 	<groupId>cl.duoc.bodegaexpress</groupId>
 	<artifactId>bodegaexpress-lambda</artifactId>
-	<version>0.2.0-SNAPSHOT</version>
+	<version>0.2.0</version>
 	<packaging>jar</packaging>
 	<description>Funciones AWS Lambda de BodegaExpress: autorizador JWT del API Gateway y alerta de stock bajo (consumidor SQS)</description>
 

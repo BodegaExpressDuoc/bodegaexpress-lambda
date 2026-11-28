@@ -60,6 +60,16 @@ El workflow `.github/workflows/ci-cd.yml`:
 Secrets requeridos en GitHub: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`,
 `AWS_SESSION_TOKEN` (AWS Academy, cambian en cada sesión) y `JWT_SECRET`.
 
+La rama `main` está protegida: solo cambia mediante pull request desde `develop`.
+
+## Versiones
+
+Cada entrega se marca con un tag anotado en `main`:
+
+| Versión | Tag | Entrega | Contenido |
+|---|---|---|---|
+| 0.2.0 | `v0.2.0` | Evaluación Parcial 3 | Primera versión: autorizador JWT del API Gateway, alerta de stock bajo desde SQS y despliegue con `scripts/desplegar.sh` |
+
 ## Verificar en AWS
 
 ```bash
